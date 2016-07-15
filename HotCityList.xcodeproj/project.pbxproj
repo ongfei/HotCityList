@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924D58BD1D38993800B2B473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58BC1D38993800B2B473 /* main.m */; };
+		924D58C01D38993800B2B473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58BF1D38993800B2B473 /* AppDelegate.m */; };
+		924D58C31D38993800B2B473 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58C21D38993800B2B473 /* ViewController.m */; };
+		924D58C61D38993800B2B473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924D58C41D38993800B2B473 /* Main.storyboard */; };
+		924D58C81D38993800B2B473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924D58C71D38993800B2B473 /* Assets.xcassets */; };
+		924D58CB1D38993800B2B473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924D58C91D38993800B2B473 /* LaunchScreen.storyboard */; };
+		924D58D61D38993800B2B473 /* HotCityListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58D51D38993800B2B473 /* HotCityListTests.m */; };
+		924D58E11D38993800B2B473 /* HotCityListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58E01D38993800B2B473 /* HotCityListUITests.m */; };
+		924D58F51D38997600B2B473 /* CitySelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58F01D38997600B2B473 /* CitySelectController.m */; };
+		924D58F61D38997600B2B473 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58F21D38997600B2B473 /* CityTableViewCell.m */; };
+		924D58F71D38997600B2B473 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 924D58F41D38997600B2B473 /* CityModel.m */; };
+		924D58F91D38AF4400B2B473 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 924D58F81D38AF4400B2B473 /* city.plist */; };
+		9DFE06B87257B378F4AF7CFB /* libPods-HotCityList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 543637A57D8775A6C52BB9F9 /* libPods-HotCityList.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924D58D21D38993800B2B473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924D58B01D38993800B2B473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924D58B71D38993800B2B473;
+			remoteInfo = HotCityList;
+		};
+		924D58DD1D38993800B2B473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924D58B01D38993800B2B473 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924D58B71D38993800B2B473;
+			remoteInfo = HotCityList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		543637A57D8775A6C52BB9F9 /* libPods-HotCityList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HotCityList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		924D58B81D38993800B2B473 /* HotCityList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotCityList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924D58BC1D38993800B2B473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		924D58BE1D38993800B2B473 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		924D58BF1D38993800B2B473 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		924D58C11D38993800B2B473 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		924D58C21D38993800B2B473 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		924D58C51D38993800B2B473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		924D58C71D38993800B2B473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924D58CA1D38993800B2B473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		924D58CC1D38993800B2B473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924D58D11D38993800B2B473 /* HotCityListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotCityListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924D58D51D38993800B2B473 /* HotCityListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotCityListTests.m; sourceTree = "<group>"; };
+		924D58D71D38993800B2B473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924D58DC1D38993800B2B473 /* HotCityListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotCityListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924D58E01D38993800B2B473 /* HotCityListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotCityListUITests.m; sourceTree = "<group>"; };
+		924D58E21D38993800B2B473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924D58EF1D38997600B2B473 /* CitySelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectController.h; sourceTree = "<group>"; };
+		924D58F01D38997600B2B473 /* CitySelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectController.m; sourceTree = "<group>"; };
+		924D58F11D38997600B2B473 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
+		924D58F21D38997600B2B473 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
+		924D58F31D38997600B2B473 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		924D58F41D38997600B2B473 /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		924D58F81D38AF4400B2B473 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		9863F0EC49C346421C3C1974 /* Pods-HotCityList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotCityList.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotCityList/Pods-HotCityList.release.xcconfig"; sourceTree = "<group>"; };
+		F36BAB0339594EC96A43D669 /* Pods-HotCityList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotCityList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotCityList/Pods-HotCityList.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924D58B51D38993800B2B473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFE06B87257B378F4AF7CFB /* libPods-HotCityList.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924D58CE1D38993800B2B473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924D58D91D38993800B2B473 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4C969A54867E4295CFF6DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543637A57D8775A6C52BB9F9 /* libPods-HotCityList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81F7C3C6C3E0D3CDA6AF30C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F36BAB0339594EC96A43D669 /* Pods-HotCityList.debug.xcconfig */,
+				9863F0EC49C346421C3C1974 /* Pods-HotCityList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		924D58AF1D38993800B2B473 = {
+			isa = PBXGroup;
+			children = (
+				924D58BA1D38993800B2B473 /* HotCityList */,
+				924D58D41D38993800B2B473 /* HotCityListTests */,
+				924D58DF1D38993800B2B473 /* HotCityListUITests */,
+				924D58B91D38993800B2B473 /* Products */,
+				81F7C3C6C3E0D3CDA6AF30C9 /* Pods */,
+				1F4C969A54867E4295CFF6DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		924D58B91D38993800B2B473 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924D58B81D38993800B2B473 /* HotCityList.app */,
+				924D58D11D38993800B2B473 /* HotCityListTests.xctest */,
+				924D58DC1D38993800B2B473 /* HotCityListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924D58BA1D38993800B2B473 /* HotCityList */ = {
+			isa = PBXGroup;
+			children = (
+				924D58EE1D38996400B2B473 /* 城市列表 热门城市 */,
+				924D58BE1D38993800B2B473 /* AppDelegate.h */,
+				924D58BF1D38993800B2B473 /* AppDelegate.m */,
+				924D58C11D38993800B2B473 /* ViewController.h */,
+				924D58C21D38993800B2B473 /* ViewController.m */,
+				924D58C41D38993800B2B473 /* Main.storyboard */,
+				924D58C71D38993800B2B473 /* Assets.xcassets */,
+				924D58C91D38993800B2B473 /* LaunchScreen.storyboard */,
+				924D58CC1D38993800B2B473 /* Info.plist */,
+				924D58BB1D38993800B2B473 /* Supporting Files */,
+			);
+			path = HotCityList;
+			sourceTree = "<group>";
+		};
+		924D58BB1D38993800B2B473 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				924D58BC1D38993800B2B473 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		924D58D41D38993800B2B473 /* HotCityListTests */ = {
+			isa = PBXGroup;
+			children = (
+				924D58D51D38993800B2B473 /* HotCityListTests.m */,
+				924D58D71D38993800B2B473 /* Info.plist */,
+			);
+			path = HotCityListTests;
+			sourceTree = "<group>";
+		};
+		924D58DF1D38993800B2B473 /* HotCityListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				924D58E01D38993800B2B473 /* HotCityListUITests.m */,
+				924D58E21D38993800B2B473 /* Info.plist */,
+			);
+			path = HotCityListUITests;
+			sourceTree = "<group>";
+		};
+		924D58EE1D38996400B2B473 /* 城市列表 热门城市 */ = {
+			isa = PBXGroup;
+			children = (
+				924D58F81D38AF4400B2B473 /* city.plist */,
+				924D58EF1D38997600B2B473 /* CitySelectController.h */,
+				924D58F01D38997600B2B473 /* CitySelectController.m */,
+				924D58F11D38997600B2B473 /* CityTableViewCell.h */,
+				924D58F21D38997600B2B473 /* CityTableViewCell.m */,
+				924D58F31D38997600B2B473 /* CityModel.h */,
+				924D58F41D38997600B2B473 /* CityModel.m */,
+			);
+			name = "城市列表 热门城市";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924D58B71D38993800B2B473 /* HotCityList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924D58E51D38993800B2B473 /* Build configuration list for PBXNativeTarget "HotCityList" */;
+			buildPhases = (
+				298E3463E12CEEFE6A8E3FEE /* [CP] Check Pods Manifest.lock */,
+				924D58B41D38993800B2B473 /* Sources */,
+				924D58B51D38993800B2B473 /* Frameworks */,
+				924D58B61D38993800B2B473 /* Resources */,
+				6DB05E8E04B732A9CC0E56AE /* [CP] Embed Pods Frameworks */,
+				AD9E5A5DCDA04654D4239595 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotCityList;
+			productName = HotCityList;
+			productReference = 924D58B81D38993800B2B473 /* HotCityList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		924D58D01D38993800B2B473 /* HotCityListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924D58E81D38993800B2B473 /* Build configuration list for PBXNativeTarget "HotCityListTests" */;
+			buildPhases = (
+				924D58CD1D38993800B2B473 /* Sources */,
+				924D58CE1D38993800B2B473 /* Frameworks */,
+				924D58CF1D38993800B2B473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924D58D31D38993800B2B473 /* PBXTargetDependency */,
+			);
+			name = HotCityListTests;
+			productName = HotCityListTests;
+			productReference = 924D58D11D38993800B2B473 /* HotCityListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		924D58DB1D38993800B2B473 /* HotCityListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924D58EB1D38993800B2B473 /* Build configuration list for PBXNativeTarget "HotCityListUITests" */;
+			buildPhases = (
+				924D58D81D38993800B2B473 /* Sources */,
+				924D58D91D38993800B2B473 /* Frameworks */,
+				924D58DA1D38993800B2B473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924D58DE1D38993800B2B473 /* PBXTargetDependency */,
+			);
+			name = HotCityListUITests;
+			productName = HotCityListUITests;
+			productReference = 924D58DC1D38993800B2B473 /* HotCityListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924D58B01D38993800B2B473 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dyf;
+				TargetAttributes = {
+					924D58B71D38993800B2B473 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					924D58D01D38993800B2B473 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 924D58B71D38993800B2B473;
+					};
+					924D58DB1D38993800B2B473 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 924D58B71D38993800B2B473;
+					};
+				};
+			};
+			buildConfigurationList = 924D58B31D38993800B2B473 /* Build configuration list for PBXProject "HotCityList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924D58AF1D38993800B2B473;
+			productRefGroup = 924D58B91D38993800B2B473 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924D58B71D38993800B2B473 /* HotCityList */,
+				924D58D01D38993800B2B473 /* HotCityListTests */,
+				924D58DB1D38993800B2B473 /* HotCityListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924D58B61D38993800B2B473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924D58CB1D38993800B2B473 /* LaunchScreen.storyboard in Resources */,
+				924D58F91D38AF4400B2B473 /* city.plist in Resources */,
+				924D58C81D38993800B2B473 /* Assets.xcassets in Resources */,
+				924D58C61D38993800B2B473 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924D58CF1D38993800B2B473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924D58DA1D38993800B2B473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		298E3463E12CEEFE6A8E3FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB05E8E04B732A9CC0E56AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotCityList/Pods-HotCityList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9E5A5DCDA04654D4239595 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotCityList/Pods-HotCityList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924D58B41D38993800B2B473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924D58F61D38997600B2B473 /* CityTableViewCell.m in Sources */,
+				924D58C31D38993800B2B473 /* ViewController.m in Sources */,
+				924D58C01D38993800B2B473 /* AppDelegate.m in Sources */,
+				924D58F51D38997600B2B473 /* CitySelectController.m in Sources */,
+				924D58F71D38997600B2B473 /* CityModel.m in Sources */,
+				924D58BD1D38993800B2B473 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924D58CD1D38993800B2B473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924D58D61D38993800B2B473 /* HotCityListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924D58D81D38993800B2B473 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924D58E11D38993800B2B473 /* HotCityListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924D58D31D38993800B2B473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924D58B71D38993800B2B473 /* HotCityList */;
+			targetProxy = 924D58D21D38993800B2B473 /* PBXContainerItemProxy */;
+		};
+		924D58DE1D38993800B2B473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924D58B71D38993800B2B473 /* HotCityList */;
+			targetProxy = 924D58DD1D38993800B2B473 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		924D58C41D38993800B2B473 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924D58C51D38993800B2B473 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		924D58C91D38993800B2B473 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924D58CA1D38993800B2B473 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924D58E31D38993800B2B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		924D58E41D38993800B2B473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924D58E61D38993800B2B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36BAB0339594EC96A43D669 /* Pods-HotCityList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HotCityList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.HotCityList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		924D58E71D38993800B2B473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9863F0EC49C346421C3C1974 /* Pods-HotCityList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HotCityList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.HotCityList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		924D58E91D38993800B2B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotCityListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.HotCityListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotCityList.app/HotCityList";
+			};
+			name = Debug;
+		};
+		924D58EA1D38993800B2B473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotCityListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.HotCityListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotCityList.app/HotCityList";
+			};
+			name = Release;
+		};
+		924D58EC1D38993800B2B473 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotCityListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.HotCityListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotCityList;
+			};
+			name = Debug;
+		};
+		924D58ED1D38993800B2B473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotCityListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = df.HotCityListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotCityList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924D58B31D38993800B2B473 /* Build configuration list for PBXProject "HotCityList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924D58E31D38993800B2B473 /* Debug */,
+				924D58E41D38993800B2B473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924D58E51D38993800B2B473 /* Build configuration list for PBXNativeTarget "HotCityList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924D58E61D38993800B2B473 /* Debug */,
+				924D58E71D38993800B2B473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924D58E81D38993800B2B473 /* Build configuration list for PBXNativeTarget "HotCityListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924D58E91D38993800B2B473 /* Debug */,
+				924D58EA1D38993800B2B473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924D58EB1D38993800B2B473 /* Build configuration list for PBXNativeTarget "HotCityListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924D58EC1D38993800B2B473 /* Debug */,
+				924D58ED1D38993800B2B473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924D58B01D38993800B2B473 /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - MJExtension (3.0.10)
+  - YYModel (1.0.3)
+
+DEPENDENCIES:
+  - MJExtension
+  - YYModel
+
+SPEC CHECKSUMS:
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+
+PODFILE CHECKSUM: bd58111e909548ac765c2f2e6f710dd7f116f75f
+
+COCOAPODS: 1.0.1
